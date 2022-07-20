@@ -1,0 +1,15 @@
+function countEvenNumbers(arrayOfNumbers) {
+
+    const even = arrayOfNumbers.filter(item => item % 2 === 0);
+
+    return even.length;
+
+}
+assignment.countEvenNumbers = countEvenNumbers;
+
+function sumOfNumbers(arrayOfNumbers) {
+    const sum = arrayOfNumbers.reduce(
+        (x, y) => x + y, 0);
+    return sum;
+}
+ assignment.sumOfNumbers = sumOfNumbers;
